@@ -156,72 +156,15 @@
 
         .prothoughts-logo-small {
             position: absolute;
-            top: 20px;
+            top: 10px;
             right: 20px;
             z-index: 100;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        .prothoughts-logo-small .logo-text {
-            display: flex;
-            align-items: baseline;
-            gap: 2px;
-            font-weight: bold;
-            font-size: 0.9em;
-            line-height: 1;
-        }
-
-        .prothoughts-logo-small .logo-pro {
-            color: #0099CC;
-        }
-
-        .prothoughts-logo-small .logo-th {
-            color: #333;
-        }
-
-        .prothoughts-logo-small .logo-target {
-            width: 18px;
-            height: 18px;
-            display: inline-block;
-            position: relative;
-            margin: 0 1px;
-            background: 
-                conic-gradient(from 45deg, transparent 0deg, transparent 60deg, rgba(51, 51, 51, 0.4) 60deg, rgba(51, 51, 51, 0.4) 90deg, transparent 90deg);
-        }
-
-        .prothoughts-logo-small .logo-target::before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            border: 2px solid #0099CC;
-            box-sizing: border-box;
-        }
-
-        .prothoughts-logo-small .logo-target::after {
-            content: '';
-            position: absolute;
-            width: 50%;
-            height: 50%;
-            border-radius: 50%;
-            background: #0099CC;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            box-sizing: border-box;
-        }
-
-        .prothoughts-logo-small .logo-ughts {
-            color: #333;
-        }
-
-        .prothoughts-logo-small .logo-tagline {
-            font-size: 0.6em;
-            color: #666;
-            margin-top: 2px;
-            font-weight: normal;
-            text-align: center;
+        .prothoughts-logo-small img {
+            max-width: 130px;
+            height: auto;
+            display: block;
         }
 
         .slide-header {
@@ -505,17 +448,7 @@
 
             <div id="title" class="tab-content active">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
-                </div>
-                <div class="prothoughts-logo-container">
-                    <img src="https://prothoughts.co.in/images/logo.png" alt="ProThoughts Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                    <div style="display:none; font-size: 3em; font-weight: bold; color: #0099CC; padding: 20px;">ProThoughts</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <h1 class="slide-header" style="font-size: 3.5em;">How AI Will Make<br>Project Management Smarter</h1>
                 <h2 class="slide-subtitle" style="font-size: 1.8em; color: #006699;">Empower Your Projects with Intelligence</h2>
@@ -528,13 +461,7 @@
 
             <div id="about" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <h2 class="slide-header">About the Speaker</h2>
                 
@@ -606,13 +533,7 @@
 
             <div id="agenda" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <h2 class="slide-header">Session Agenda</h2>
                 <p style="text-align: center; font-size: 1.3em; color: #666; margin-bottom: 40px;">45-Minute Journey Through AI-Powered Project Management</p>
@@ -681,13 +602,7 @@
 
             <div id="ai-basics" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <div class="section-title">Section 1: AI Fundamentals (10 mins)</div>
                 
@@ -765,22 +680,22 @@
 
                 <h2 class="slide-header" style="margin-top: 50px;">Core AI Concepts for PMs</h2>
                 <div class="grid-4">
-                    <div class="term-box">
-                        <h4>🧠 LLM (Large Language Model)</h4>
-                        <p>Neural networks trained on the entire internet to understand and generate human language.</p>
-                    </div>
-                    <div class="term-box">
-                        <h4>📝 Context Window</h4>
-                        <p>AI's "working memory". Bigger window = AI can read entire books or project histories at once.</p>
-                    </div>
-                    <div class="term-box">
-                        <h4>🎯 Prompt Engineering</h4>
-                        <p>The skill of asking AI the right questions. Better prompts = 10x better results.</p>
-                    </div>
-                    <div class="term-box">
-                        <h4>🎨 Multimodal AI</h4>
-                        <p>AI that can see (images), hear (audio), and speak, not just read text.</p>
-                    </div>
+                        <div class="term-box">
+                            <h4>🧠 LLM (Large Language Model)</h4>
+                            <p>Neural networks trained on the entire internet to understand and generate human language.</p>
+                        </div>
+                        <div class="term-box">
+                            <h4>📝 Context Window</h4>
+                            <p>AI's "working memory". Bigger window = AI can read entire books or project histories at once.</p>
+                        </div>
+                        <div class="term-box">
+                            <h4>🎯 Prompt Engineering</h4>
+                            <p>The skill of asking AI the right questions. Better prompts = 10x better results.</p>
+                        </div>
+                        <div class="term-box">
+                            <h4>🎨 Multimodal AI</h4>
+                            <p>AI that can see (images), hear (audio), and speak, not just read text.</p>
+                        </div>
                     <div class="term-box">
                         <h4>🔍 RAG (Retrieval-Augmented Generation)</h4>
                         <p>AI that pulls from your project documents to give accurate, context-specific answers instead of generic responses.</p>
@@ -788,7 +703,7 @@
                     <div class="term-box">
                         <h4>🎯 Fine-tuning</h4>
                         <p>Training AI on your specific project data to make it an expert in your domain and terminology.</p>
-                    </div>
+                </div>
                     <div class="term-box">
                         <h4>🔢 Token</h4>
                         <p>The basic unit AI processes. ~750 words = 1000 tokens. Understanding this helps manage AI costs and limits.</p>
@@ -796,7 +711,7 @@
                     <div class="term-box">
                         <h4>📊 Embeddings</h4>
                         <p>AI converts text into numbers that capture meaning. Enables semantic search across project documents.</p>
-                    </div>
+                </div>
                     <div class="term-box">
                         <h4>🤖 AI Agent</h4>
                         <p>Autonomous AI that can plan, use tools, and execute tasks end-to-end without constant human input.</p>
@@ -884,13 +799,7 @@
 
             <div id="pm-core" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <div class="section-title">Section 2: PM Essentials (10 mins)</div>
 
@@ -965,15 +874,15 @@
                     
                     <div style="background: white; padding: 15px; border-radius: 8px; margin: 10px 0;">
                         <p style="margin-bottom: 8px;"><strong style="color: #0099CC;">What PMs Do:</strong> Define deliverables, document requirements, create WBS, approve changes</p>
-                    </div>
+                </div>
                     
                     <div style="background: #ffebee; padding: 15px; border-radius: 8px; margin: 10px 0;">
                         <p style="margin-bottom: 5px;"><strong style="color: #c62828;">❌ The Problem:</strong> <strong>40% killed by scope creep.</strong> Requirements lost in emails, change impact takes days.</p>
-                    </div>
+                </div>
                     
                     <div style="background: #fff3e0; padding: 15px; border-radius: 8px; margin: 10px 0;">
                         <p style="color: #e65100;"><strong>💭 What if someone could...</strong> detect scope creep instantly, predict change impacts in seconds?</p>
-                    </div>
+                </div>
                 </div>
 
                 <div class="card" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%); border-left: 6px solid #7b1fa2; margin: 20px 0; padding: 25px;">
@@ -981,8 +890,8 @@
                     
                     <div style="background: white; padding: 15px; border-radius: 8px; margin: 10px 0;">
                         <p style="margin-bottom: 8px;"><strong style="color: #7b1fa2;">What PMs Do:</strong> Create schedules, estimate durations, track progress, update critical path</p>
-                    </div>
-                    
+                </div>
+
                     <div style="background: #ffebee; padding: 15px; border-radius: 8px; margin: 10px 0;">
                         <p style="margin-bottom: 5px;"><strong style="color: #c62828;">❌ The Problem:</strong> <strong>60% miss deadlines.</strong> Estimates 2-3x off, dependencies break silently.</p>
                     </div>
@@ -1051,13 +960,7 @@
 
             <div id="transformation" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <div class="section-title">Section 3: The AI × PM Transformation (25 mins)</div>
 
@@ -1067,7 +970,7 @@
                     <div class="card" style="background: linear-gradient(135deg, #e6f7ff 0%, #b3e0ff 100%); border-left: 4px solid #0099CC;">
                         <h3 style="color: #006699; font-size: 1.3em;">🎯 Smart Decisions</h3>
                         <p style="font-size: 0.95em;">AI analyzes data to recommend optimal decisions. <strong>40% faster decisions.</strong></p>
-                    </div>
+                </div>
                     <div class="card" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%); border-left: 4px solid #7b1fa2;">
                         <h3 style="color: #4a148c; font-size: 1.3em;">🔍 Risk Detection</h3>
                         <p style="font-size: 0.95em;">Identifies risks by analyzing thousands of data points. <strong>2 weeks early warning.</strong></p>
@@ -1321,13 +1224,7 @@
 
             <div id="tools" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <h2 class="slide-header">🛠️ Top AI PM Tools (2025)</h2>
                 <div class="grid-3">
@@ -1384,13 +1281,7 @@
 
             <div id="prothoughts" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <div class="prothoughts-logo-container">
                     <img src="https://prothoughts.co.in/images/logo.png" alt="ProThoughts Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
@@ -1475,13 +1366,7 @@
 
             <div id="action" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                  <h2 class="slide-header">🚀 Start Your AI Journey Today</h2>
                  <div class="grid-3">
@@ -1505,13 +1390,7 @@
 
             <div id="summary" class="tab-content">
                 <div class="prothoughts-logo-small">
-                    <div class="logo-text">
-                        <span class="logo-pro">PRO</span>
-                        <span class="logo-th">TH</span>
-                        <span class="logo-target"></span>
-                        <span class="logo-ughts">UGHTS</span>
-                    </div>
-                    <div class="logo-tagline">succeed with your projects</div>
+                    <img src="Prothoughts.jpeg" alt="ProThoughts Logo" onerror="this.style.display='none';">
                 </div>
                 <h2 class="slide-header">Summary & Key Takeaways</h2>
                 <div class="pm-knowledge-area">
@@ -1536,8 +1415,8 @@
                             <strong style="color: #ff6f00;">📧 PDU Claim Code:</strong> The PDU claim code will be shared via email after the webinar concludes.
                         </p>
                     </div>
-                </div>
-                
+            </div>
+
                 <div class="prothoughts-logo-container" style="margin-top: 60px;">
                     <img src="https://prothoughts.co.in/images/logo.png" alt="ProThoughts Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                     <div style="display:none; font-size: 2.5em; font-weight: bold; color: #0099CC;">ProThoughts</div>
